@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crafts & Boxes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="item item-1" onclick="kwak()"></div>
+        <div class="item item-2" onclick="kwak()"></div>
+        <div class="item item-3" onclick="kwak()"></div>
+        <div class="item item-1" onclick="kwak()"></div>
+        <div class="item item-2" onclick="kwak()"></div>
+        <div class="item item-3" onclick="kwak()"></div>
+        <div class="item item-1" onclick="kwak()"></div>
+        <div class="item item-2" onclick="kwak()"></div>
+        <div class="item item-3" onclick="kwak()"></div>
+        <div class="item item-1" onclick="kwak()"></div>
+        <div class="item item-2" onclick="kwak()"></div>
+        <div class="item item-3" onclick="kwak()"></div>
+    </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Nombre del producto</h2>
+            </div>
+            <div class="modal-body">
+                <div style="display: inline-block;padding: .5em;">
+                    <img src="3.png" alt="">
+                </div>
+                <div style="display: inline-block;padding: .5em;">
+                    <p><b>Precio:</b> $5000</p>
+                    <p><b>Materiales:</b> cerámica, esmalte, blabla, blabla2</p>
+                    <p><b>Descripción:</b> blablablblbalb ablb balb abalab abl bal balb al bab lab ba lba lablabl bal balbl
+                            b abl balba l</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="button button2">Comprar</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
